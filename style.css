@@ -1,0 +1,91 @@
+body{
+    background-image: linear-gradient(rgb(247, 241, 241),rgb(152, 241, 110));
+    background-repeat: no-repeat;
+}
+html{
+    height:250%;
+}
+h1{
+    font-size: 100px;
+    margin-top: -30px;
+    margin-left: 400px;
+    color:rgb(164, 190, 103);
+
+}
+h2{
+    margin-top: -1px;
+}
+h3{
+    margin-top: -15px;
+}
+marquee{
+    background-color: rgb(142, 241, 142);
+    height:25px;
+    padding:5px;
+    padding-top: 10px;
+    margin-top:-20px;
+    font-size:x-large;
+    color:green;
+}
+.logo{
+    height: 100px;
+    margin: -5px;
+    border: 5px dotted rgb(129, 231, 89);
+    overflow: hidden;
+    position: relative;
+    clear:left;
+    
+}
+.me{
+    height:500px;
+    float:right;
+    margin-top: -100px;
+    border: 10px solid rgb(114, 214, 83);
+    border-radius: 50%;
+    display: inline-block;
+    overflow: hidden;
+    position: relative;
+}
+p{
+    font-size: 23px;
+    color: green;
+}
+.mahadev{
+    height:500px;
+    float:left;
+    /* margin-top: -50px; */
+    border: 10px solid rgb(114, 214, 83);
+    border-radius: 40%;
+    display: inline-block;
+    overflow: hidden;
+    position: relative;
+}
+#navbar {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    background-color:  rgb(142, 241, 142);
+    overflow: hidden;
+    padding: 20px;
+  }
+  
+  #navbar .list a {
+    color: rgb(255, 255, 255);
+    /* margin-top: 25px; */
+    text-decoration: none;
+    font-size: 1.29rem;
+    padding: 7px;
+    margin: 30px;
+    font-family: "Poppins", sans-serif;
+  }
+  .list a:hover {
+    border: 3px solid black;
+    background-color: rgb(38, 241, 20);
+  
+    border-radius: 6px;
+    padding: 9px;
+  
+    transition: border 0.3s ease-in-out;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
